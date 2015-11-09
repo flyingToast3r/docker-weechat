@@ -9,7 +9,7 @@ RUN \
   apt-get -q -y update ;\
   apt-get install -y python-software-properties ;\
   add-apt-repository -y ppa:nesthib/weechat-stable ;\
-  apt-get -q -y update ;\
+  apt-get -q -y update ;\ 
   apt-get install -y openssh-server weechat weechat-plugins tmux ;\
   mkdir /var/run/sshd ;\
   useradd -m docker -s /bin/bash
